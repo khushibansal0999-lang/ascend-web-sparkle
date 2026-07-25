@@ -8,8 +8,8 @@ interface Props {
     id: string;
     prev_level: number;
     new_level: number;
-    prev_rank: RankCode;
-    new_rank: RankCode;
+    prev_rank: RankCode | null;
+    new_rank: RankCode | null;
   };
 }
 
