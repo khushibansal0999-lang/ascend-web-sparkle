@@ -57,7 +57,7 @@ export function LevelUpModal({ event }: Props) {
           </div>
         </div>
 
-        {rankChanged && (
+        {rankChanged && event.new_rank && (
           <div className="mb-6 border border-tertiary/40 bg-tertiary/5 py-4">
             <p className="font-mono text-[10px] tracking-[0.4em] text-tertiary">
               [ RANK PROMOTION ]
