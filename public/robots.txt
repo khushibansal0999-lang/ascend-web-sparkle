@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ascend-web-sparkle.lovable.app/sitemap.xml
